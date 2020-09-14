@@ -5,7 +5,7 @@ def my_collect(array)
 word = []
 while i < array.length
 word<< yield(array[i])
-i =+ 1 
+i += 1 
 end 
 word 
 end
